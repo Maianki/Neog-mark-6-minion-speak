@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kalam&display=swap');
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+}
+
+body{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    color:var(--black);
+}
+
+.navigation{
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.nav-heading{
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.btn-translate{
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    background-color: var(--primary);
+    border: none;
+    font-family:'Kalam', cursive;
+}
+
+textarea{
+    border-radius: .5rem;
+    min-height: 10rem;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: 'Kalam', cursive;
+    width: 100%;
+}
+
+.translate-output{
+    border-radius: .5rem;
+    width: 100%;
+    min-height: 5rem;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+.footer{
+    padding:1rem;
+    background-color: var(--primary);
+    text-align: center;
+    width: 100%;
+}
+
+.footer-heading{
+    font-size: 1.25em;
+}
