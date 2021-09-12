@@ -14,12 +14,23 @@ body{
 .navigation{
     background-color: var(--primary);
     text-align: center;
+    margin:0px;
+}
+
+.padding-pd{
+    padding-top: 1rem;
+}
+
+.container{
+    margin: 0 auto;
+    max-width:60em;
+    padding:1rem;
 }
 
 .nav-heading{
-    font-weight: 600;
     font-size: 2rem;
     padding: 1rem;
+    margin: 0px;
 }
 
 .btn-translate{
@@ -50,12 +61,17 @@ textarea{
 }
 
 .footer{
-    padding:1rem;
     background-color: var(--primary);
     text-align: center;
     width: 100%;
+    position:fixed;
+    bottom:0;
 }
 
 .footer-heading{
-    font-size: 1.25em;
+    font-size: 1.5em;
+}
+
+footer p{
+    display: inline;
 }
