@@ -12,7 +12,7 @@ function translationURL(userInput){
 //function to handle error
 function errorHandler(error){
     console.log(error)
-    alert("Something went wrong(You might have exhausted your 5 translation)! Try again after some time")
+    alert("Something went wrong(You might have exhausted your 5 translation per hour)! Try again after some time")
 }
 
 //Function to translate userInput to banana language
@@ -24,7 +24,6 @@ function translateToBanana(){
     .then((response)=>response.json())
     .then((json)=>{
         var translatedOutput=json.contents.translated;
-        console.log(translatedOutput)
         outputContainer.innerHTML = translatedOutput
     })
     .catch(errorHandler)
