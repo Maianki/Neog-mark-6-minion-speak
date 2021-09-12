@@ -6,7 +6,6 @@
 
 body{
     font-family: 'Cedarville Cursive', cursive;
-    font-family: 'Kalam', cursive;
     margin: 0;
     color:var(--black);
 }
@@ -40,7 +39,7 @@ body{
     margin-top: 1rem;
     background-color: var(--primary);
     border: none;
-    font-family:'Kalam', cursive;
+    font-family: 'Cedarville Cursive', cursive;
 }
 
 textarea{
@@ -48,7 +47,7 @@ textarea{
     min-height: 10rem;
     margin-top: 2rem;
     font-size: 18px;
-    font-family: 'Kalam', cursive;
+    font-family: 'Cedarville Cursive', cursive;
     width: 100%;
 }
 
